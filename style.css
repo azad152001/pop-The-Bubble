@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom CSS */
+body {
+    font-family: "Gilroy", sans-serif;
+    background-color: rgb(83, 83, 149);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#panel {
+    width: 100%;
+    max-width: 600px; /* Limit panel width for better readability */
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ptop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box {
+    color: #3867b3;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(48, 48, 124);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(31, 31, 93);
+}
+
+#startButton,
+#playAgainButton {
+    display: block;
+    margin: 10px auto; /* Center the buttons horizontally */
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover,
+#playAgainButton:hover {
+    background-color: rgb(48, 48, 124);
+}
